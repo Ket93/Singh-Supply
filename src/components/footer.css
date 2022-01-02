@@ -1,0 +1,55 @@
+.footerContainer{
+    background-color: black;
+    height: 21vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerLogo{
+    width: 13.5em;
+}
+
+.navContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footerLink{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    width: 30em;
+    margin: 13px 15px;  
+}
+
+.footerLink:hover{
+    text-decoration: underline;
+}
+
+.navContainerRow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12em;
+}
+
+.socialDiv{
+    margin: 40px;
+}
+
+.socialsHeading{
+font-size: 20px;
+color: white;
+font-weight: 400;
+margin: 0px;
+}
+
+.igLogoSocials{
+    margin: 20px;
+    width: 3em;
+}

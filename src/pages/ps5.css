@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Raleway:wght@800&family=Spartan:wght@700&display=swap');
+
+.ps5Pic{
+    width: 40em;
+}
+
+.ps5Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ps5DescriptionContainer{
+    margin-left: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ps5Heading{
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 5px;
+
+}
+
+
+.divider{
+    height: 6em;
+}
+
+.ps5Quantity{
+    font-family: 'Quicksand', sans-serif;
+    padding: 8px;
+    outline: 3px solid rgb(52, 160, 248);
+    border-radius: 10px;
+    color: rgb(52, 160, 248);
+}
+
+.ps5Price{
+    font-family: 'Quicksand', sans-serif;
+    padding: 8px;
+    border-radius: 10px;
+    outline: 3px solid rgb(94, 104, 248);
+    color: rgb(94, 104, 248);
+}

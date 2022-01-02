@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Padauk&family=Quicksand:wght@500;600&family=Raleway:wght@900&family=Spartan:wght@700&display=swap');
+
+.body{
+    width: 29em;
+    margin-bottom: 2em;
+}
+
+.container{
+    width: 16em;
+    height: 20em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 4em;
+}
+
+.displayImage{
+    height: 9em;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.title{
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+.price{
+    color:red;
+    margin-top: 5px;
+    margin-bottom: 19px;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.size{
+    background-color:black;
+    color:white;
+    display:inline;
+    border-radius: 5px;
+    margin-right: 2px;
+    padding: 8px 10px;
+
+}
+
+.discountContainer{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.discountText{
+    font-family: 'Padauk', sans-serif;
+    text-align: left;
+    width: auto;
+    padding: 4px 25px;
+    color: white;
+    background-color: red;
+    font-size: 18px;
+}
+
+.noDiscountDivide{
+    height: 4.7em;
+}
+
+.prices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -10px
+}
+
+.oldPrice{
+    color:grey;
+    font-size: 18px;
+    text-decoration: line-through;
+    width: auto;
+    margin-top: 0px;
+    width: 10em;
+}
+
+.discountedPrice{
+    margin-bottom: 5px;
+    color:red;
+    font-size: 18px;
+    width: 10em;
+}
