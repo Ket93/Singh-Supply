@@ -2,7 +2,7 @@ import { Nav, NavLink, NavMenu, NavBtn, NavBtnLink, Bars, } from "./navbarelemen
 import Logo from ".././images/singhsupplylogo.png";
 import "./navbar.css"
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
 
     return (
 
@@ -11,7 +11,7 @@ const Navbar = () => {
                 <NavLink to="/">
                     <img class="logo" src={Logo} alt="" />
                 </NavLink>
-                <Bars />
+                <Bars onClick={toggle} />
 
                 <NavMenu>
                     <NavLink to="/">Home</NavLink>

@@ -6,8 +6,17 @@ import Jordans from "./pages/jordans.js";
 import Nike from "./pages/nike.js";
 import Contact from "./pages/contact.js";
 import Addidas from "./pages/addidas.js";
+import Sidebar from "./components/sidebar.js"
+import React, { useState } from "react";
+
 
 function App() {
+
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  }
+
   return (
     <body>
 
@@ -15,7 +24,8 @@ function App() {
         <div className="App">
           <header className="App-header">
 
-            <Navbar />
+            <Sidebar isOpen={isOpen} toggle={toggle} />
+            <Navbar toggle={toggle} />
 
             <Routes>
 

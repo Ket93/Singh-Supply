@@ -70,7 +70,6 @@ function Home() {
             </div>
 
             <Footer></Footer>
-
         </body>
     );
 }
